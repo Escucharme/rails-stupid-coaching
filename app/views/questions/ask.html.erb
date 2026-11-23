@@ -1,0 +1,16 @@
+<div class="container py-5" style="max-width: 600px;">
+  <div class="text-center mb-4">
+    <h1 class="fw-bold">Stupid Coaching</h1>
+    <p class="text-muted">Pose ta question à ton coach (il ne va pas t'aider).</p>
+  </div>
+
+  <div class="card shadow-sm border-0">
+    <div class="card-body p-4">
+      <form action="/answer" data-turbo="false">
+        <label for="question" class="form-label fw-semibold">Your question</label>
+        <input type="text" id="question" name="question" class="form-control form-control-lg mb-3" placeholder="What time is it?">
+        <input type="submit" value="Ask!" class="btn btn-primary btn-lg w-100">
+      </form>
+    </div>
+  </div>
+</div>
